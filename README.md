@@ -1,6 +1,6 @@
-#Swiss Army Knife
+#Apparatus
 
-Repository of frequently used **bash scripts**.
+Repository of my frequently used scripts.
 
 ##Git
 
@@ -12,20 +12,9 @@ It looks for git repositories under `$HOME/projects/`.
 
 ####Usage
 
-	sh git-repositories-by-username.sh abhshkdz
+	. git-repositories-by-username.sh abhshkdz
 
-####Sample Output
-
-*filename*: `git_abhshkdz.txt`
-
-	/home/abhshkdz/projects/personal/d3
-	/home/abhshkdz/projects/personal/docs
-	/home/abhshkdz/projects/personal/hubot-scripts
-	/home/abhshkdz/projects/personal/movie-suggest
-	/home/abhshkdz/projects/personal/php-algorithms
-	/home/abhshkdz/projects/personal/project-euler
-	/home/abhshkdz/projects/personal/spoj
-	/home/abhshkdz/projects/personal/swiss-army-knife
+##Muzi
 
 ###muzi-albums-download.sh
 
@@ -37,7 +26,7 @@ It creates folders as album names in the current directory and downloads the ent
 
 ####Usage
 
-	sh muzi-albums-download.sh https://sdslabs.co.in/muzi/ajax/album/?id=109 https://sdslabs.co.in/muzi/ajax/album/?id=111 https://sdslabs.co.in/muzi/ajax/album/?id=112
+	. muzi-albums-download.sh https://sdslabs.co.in/muzi/ajax/album/?id=109 https://sdslabs.co.in/muzi/ajax/album/?id=111 https://sdslabs.co.in/muzi/ajax/album/?id=112
 
 ###muzi-artists-download.sh
 
@@ -49,4 +38,24 @@ It creates folders as artist->album names in the current directory and downloads
 
 ####Usage
 
-	sh muzi-artists-download.sh https://sdslabs.co.in/muzi/ajax/band/albums.php?id=7038 https://sdslabs.co.in/muzi/ajax/band/albums.php?id=7065
+	. muzi-artists-download.sh https://sdslabs.co.in/muzi/ajax/band/albums.php?id=7038 https://sdslabs.co.in/muzi/ajax/band/albums.php?id=7065
+
+##Latest
+
+###latest-jquery.sh
+
+Gets the latest version of jQuery from [jQuery CDN](http://code.jquery.com/).
+
+####Usage
+
+    . latest-jquery.sh
+
+###latest-bootstrap.sh
+
+Gets Twitter Bootstrap 2.1.0 CSS files by theme from [Boostrap CDN](http://www.bootstrapcdn.com/).
+
+Pass theme names as arguments.
+
+####Usage
+
+    . latest-bootstrap.sh amelia default spruce
