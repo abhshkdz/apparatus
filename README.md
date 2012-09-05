@@ -59,3 +59,13 @@ Pass theme names as arguments.
 ####Usage
 
     . latest-bootstrap.sh amelia default spruce
+
+##Backup
+
+###backup-db.sh
+
+Backs up all databases separately as backup/dbname.sql
+
+####Usage
+    
+    . backup-db.sh db_pass
