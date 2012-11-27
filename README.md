@@ -69,3 +69,18 @@ Backs up all databases separately as backup/dbname.sql
 ####Usage
     
     . backup-db.sh db_pass
+
+##Twitter
+
+###log.sh
+
+Moves the individual tweet files to backup folder and adds tweet text to the file `tweets`
+
+###gist.sh
+
+Adds the latest tweets to [Gist on Github](https://gist.github.com/4151814)
+
+####Usage
+
+    . log.sh
+    . gist.sh
