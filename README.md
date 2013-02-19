@@ -84,3 +84,13 @@ Adds the latest tweets to [Gist on Github](https://gist.github.com/4151814)
 
     . log.sh
     . gist.sh
+
+##Download
+
+###axel-file.sh
+
+Downloads from a list of files using Axel
+
+####Usage
+
+    . axel-file.sh list.txt
